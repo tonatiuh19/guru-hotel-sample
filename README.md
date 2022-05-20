@@ -39,7 +39,7 @@ Simple tech stack to save time and resources:
 - NextJs CSS preprocessor
 - Cypress/Playwright
 
-**Server:** Node, Express
+General state management of Graphql is handle by Apollo CLient. Redux store is managing the 'seen' part of businesses.
 
 ## Deployed on Vercel
 

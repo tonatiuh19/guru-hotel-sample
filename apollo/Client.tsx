@@ -1,6 +1,9 @@
 import { ApolloClient, InMemoryCache, createHttpLink } from "@apollo/client";
 import { setContext } from "@apollo/client/link/context";
 
+const proxyUrl = "https://cors-anywhere.herokuapp.com/";
+const targetUrl = "https://api.yelp.com/v3/graphql";
+
 const httpLink = createHttpLink({
   uri: "https://api.yelp.com/v3/graphql",
 });
