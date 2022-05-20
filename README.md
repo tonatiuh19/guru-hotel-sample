@@ -1,4 +1,4 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+This is a [Next.js](https://nextjs.org/) cool project for tech knowledge purposes for [GuruHotel.com](https://www.guruhotel.com/en/)
 
 ## Getting Started
 
@@ -12,23 +12,60 @@ yarn dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+This project only works for cities in the USA.
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+if you have cors issues with the project, just run the following command and open [http://localhost:3000](http://localhost:3000) inside that browser:
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+OSx:
 
-## Learn More
+```bash
+open -n -a /Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome --args --user-data-dir="/tmp/chrome_dev_test" --disable-web-security
+```
 
-To learn more about Next.js, take a look at the following resources:
+Linux:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```bash
+google-chrome --disable-web-security
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## Tech Stack
 
-## Deploy on Vercel
+Simple tech stack to save time and resources:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- React/NextJs/Typescript
+- Redux
+- ReactBootstrap/React-Icons
+- Apollo Client/Graphql
+- NextJs CSS preprocessor
+- Cypress/Playwright
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+**Server:** Node, Express
+
+## Deployed on Vercel
+
+This project has been deployed in: https://guru-hotel-sample-dls925ryv-tonatiuh19.vercel.app/
+
+## Dependencies
+
+The following Dependencies were used in order to achieve the main goal:
+
+`@apollo/client: ^3.6.4`
+`bootstrap: ^5.1.3`
+`graphql: ^16.5.0`
+`next: 12.1.6`
+`react: 18.1.0`
+`react-bootstrap: ^2.4.0`
+`react-dom: 18.1.0`
+`react-icons: ^4.3.1`
+`react-redux: ^8.0.1`
+`redux: ^4.2.0`
+`redux-devtools-extension: ^2.13.9`
+`redux-thunk: ^2.4.1`
+`@playwright/test: ^1.22.1`
+`@types/node: 17.0.34`
+`@types/react: 18.0.9`
+`@types/react-dom: 18.0.4`
+`cypress: ^9.6.1`
+`eslint: 8.15.0`
+`eslint-config-next: 12.1.6`
+`typescript: 4.6.4`
