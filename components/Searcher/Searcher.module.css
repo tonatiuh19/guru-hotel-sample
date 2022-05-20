@@ -1,0 +1,33 @@
+.formControlInvalid {
+  border-color: red;
+}
+
+.formControlInvalid::placeholder {
+  color: red;
+  opacity: 1;
+}
+
+.formControlInvalid:-ms-input-placeholder {
+  color: red;
+}
+
+.formControlInvalid::-ms-input-placeholder {
+  color: red;
+}
+
+.formControlValid {
+  border-color: dark;
+}
+
+.formControlValid::placeholder {
+  color: dark;
+  opacity: 1;
+}
+
+.formControlValid:-ms-input-placeholder {
+  color: dark;
+}
+
+.formControlValid::-ms-input-placeholder {
+  color: dark;
+}

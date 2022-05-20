@@ -1,0 +1,6 @@
+.imgUser {
+  width: 70%;
+  height: 10vw;
+  object-fit: cover;
+  border-radius: 50%;
+}
